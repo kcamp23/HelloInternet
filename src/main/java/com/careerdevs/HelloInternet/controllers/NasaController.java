@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class NasaController {
 
 
-        private static String myNasaKey = "N5ltZZMg0SKW5mRRZd6ydZsKGNPBxIx5QCi85gee";
+        private static String myNasaKey = "example";
 
         private static String nasaApodEndpoint = "https://api.nasa.gov/planetary/apod?api_key=" + myNasaKey;
 
