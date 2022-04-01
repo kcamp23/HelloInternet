@@ -19,8 +19,6 @@ public class NasaController {
 
         @GetMapping("/apod")
 
-
-
         public static Object getApodHandler (RestTemplate restTemplate) {
                      return restTemplate.getForObject(nasaApodEndpoint, Object.class);
                 }
